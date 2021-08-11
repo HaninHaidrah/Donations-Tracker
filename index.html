@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>  Donation Tracker </h1>
+    </header>
+
+    <main>
+
+        <nav>
+            <div id="formDiv">
+
+                <form id="form">
+                    <fieldset>
+                        <label for="donator"> Donator name </label>
+                        <input type="text" name="donator" id="donator" required>
+                        <label for="donationAmount"> Donation amount</label>
+                        <select type="number" name="donationAmount" id="donationAmount" required>
+                            <option>100</option>
+                            <option>300</option>
+                            <option>500</option>
+                        </select>
+                        <input type="submit" value="sumbit Query" id="sumbitButton">
+                    </fieldset>
+                </form>
+
+        </nav>
+        </div>
+        <div id="tableDiv">
+            <table id="tableForm">
+                <thead>
+                    <tr>
+                        <th>Donator name</th>
+                        <th>Donation amount</th>
+                        <th>Age</th>
+                    </tr>
+
+                </thead>
+
+            </table>
+
+
+        </div>
+
+        <button id="clearButton">Clear</button>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

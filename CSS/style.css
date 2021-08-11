@@ -1,0 +1,53 @@
+header{
+
+    height: 100px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 3%;
+    color: cornsilk;
+}
+
+header h1{
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    
+}
+/* main{
+    background-image:
+} */
+#formDiv{
+    float: left;
+}
+fieldset{
+  background-color: rgba(114, 104, 211, 0.8);
+  margin-left: 50%;
+  height: 200px;
+  width: 200px;
+  padding: 20%;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  #tableDiv{
+
+    float: right;
+    margin-right: 50%;
+    height: 200px;
+    width: 300px;
+    background-color:rgba(114, 104, 211, 0.8); 
+  }
+
+  table,tr,td{
+      border-collapse: collapse;
+      border:2px solid;
+      background-color: black;
+      color: cornsilk;
+      margin-top: 10%;
+      padding: 20%;
+  }
