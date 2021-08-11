@@ -18,9 +18,9 @@ form.addEventListener('click', saveToLocalStorage)
 
 function saveToLocalStorage(event) {
     event.preventDefault();
-    // let nameOfDonator = event.target.donator.value;
+    let nameOfDonator = event.target.donator.value;
     let amountOfDonation = event.target.value;
-    let newDonation = new Donation(amountOfDonation, amountOfDonation)
+    let newDonation = new Donation(nameOfDonator, amountOfDonation)
     Donation.allDonation.push(newDonation)
     console.log(Donation.allDonation)
     savedItems.push(newDonation)
